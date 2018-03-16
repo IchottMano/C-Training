@@ -8,7 +8,7 @@ int main(void){
     undo_escape(c, prev);
     prev = c;
   }
-  printf("Input to escape:\n");
+  printf("\nInput to escape:\n");
   while ((c = getchar()) != EOF){
     escape(c);
   }

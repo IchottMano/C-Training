@@ -21,7 +21,7 @@ e inicializa el contenido de cada posición*/
 
 realloc(item, m*item_size); /* Cambia las dimensiones del arreglo item a m */
 
-/* Ejemplo */
+/* Ejemplo hola */
 
 Persona** personas_1 = malloc(10*sizeof(Persona*))
 Persona** personas_2 = calloc(10, sizeof(Persona*))
